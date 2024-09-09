@@ -247,7 +247,6 @@ func RunMount(option *MountOptions, umask os.FileMode) bool {
 		Cipher:             cipher,
 		UidGidMapper:       uidGidMapper,
 		DisableXAttr:       *option.disableXAttr,
-		WriteOnceReadMany:  *option.writeOnceReadMany,
 	})
 
 	// create mount root
